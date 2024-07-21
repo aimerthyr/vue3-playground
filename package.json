@@ -10,10 +10,14 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "vue": "^3.4.31"
+    "@element-plus/icons-vue": "^2.3.1",
+    "element-plus": "^2.7.7",
+    "vue": "^3.4.31",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@eslint/js": "^9.7.0",
+    "@types/node": "^20.14.11",
     "@vitejs/plugin-vue": "^5.0.5",
     "autoprefixer": "^10.4.19",
     "eslint": "9.x",
@@ -29,6 +33,9 @@
     "tailwindcss": "^3.4.6",
     "typescript": "^5.2.2",
     "typescript-eslint": "^7.16.1",
+    "unplugin-auto-import": "^0.18.0",
+    "unplugin-icons": "^0.19.0",
+    "unplugin-vue-components": "^0.27.3",
     "vite": "^5.3.4",
     "vue-tsc": "^2.0.24"
   },
