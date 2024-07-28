@@ -16,6 +16,10 @@ const navList: NavItem[] = [
         path: '/home/practise/lowcode',
         label: '低代码',
       },
+      {
+        path: '/home/practise/router-analysis',
+        label: '前端路由原理',
+      },
     ],
   },
 ];

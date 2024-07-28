@@ -16,6 +16,11 @@ const routes: RouteRecordRaw[] = [
             path: 'lowcode',
             component: () => import('../views/practise/lowcode/lowcode.vue'),
           },
+          {
+            path: 'router-analysis',
+            component: () =>
+              import('../views/practise/router-analysis/router-analysis.vue'),
+          },
         ],
       },
     ],
