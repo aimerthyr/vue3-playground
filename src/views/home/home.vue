@@ -20,6 +20,10 @@ const navList: NavItem[] = [
         path: '/home/practise/router-analysis',
         label: '前端路由原理',
       },
+      {
+        path: '/home/practise/questions',
+        label: '笔试题',
+      },
     ],
   },
 ];
@@ -65,7 +69,7 @@ function changeNav(path: string) {
           >
         </el-sub-menu>
       </el-menu>
-      <div class="vp-h-full vp-min-w-0 vp-flex-1 vp-p-12">
+      <div class="vp-h-full vp-min-w-0 vp-flex-1 vp-overflow-y-auto vp-p-12">
         <RouterView></RouterView>
       </div>
     </div>

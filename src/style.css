@@ -1,3 +1,5 @@
+@import 'md-editor-v3/lib/style.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

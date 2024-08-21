@@ -21,6 +21,11 @@ const routes: RouteRecordRaw[] = [
             component: () =>
               import('../views/practise/router-analysis/router-analysis.vue'),
           },
+          {
+            path: 'questions',
+            component: () =>
+              import('../views/practise/questions/questions.vue'),
+          },
         ],
       },
     ],
